@@ -2,6 +2,10 @@ li {
   display: block;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* TOP LINE */
 
 .top-line {
@@ -363,4 +367,8 @@ li {
   height: 112px;
   left: 156px;
   top: 2380px;
+}
+
+.footer-studio {
+  color: #f4f4fd;
 }
