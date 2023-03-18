@@ -2,10 +2,12 @@
 }
 
 body {
-  font-family: "Roboto";
+  font-family: "Roboto", "sans-serif";
+  color: #434455;
+  background-color: #ffffff;
 }
 
-a {
+.link {
   text-decoration: none;
 }
 
@@ -77,6 +79,15 @@ li {
   border-radius: 4px;
   font-size: 16px;
 }
+
+button:hover {
+  background-color: #404bbf;
+}
+
+button:focus {
+  background-color: #404bbf;
+}
+
 /* TEAM */
 
 .team {
@@ -112,4 +123,24 @@ li {
 
 /* FOOTER */
 .footer {
+  height: 312px;
+  background-color: #2e2f42;
+}
+
+.logo-div > .logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.studio-white {
+  color: #f4f4fd;
+}
+
+.studio-black {
+  color: #2e2f42;
 }
