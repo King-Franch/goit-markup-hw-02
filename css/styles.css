@@ -1,6 +1,8 @@
 :root {
   --list-studio: #2e2f42;
   --menu-link: #434455;
+  --list: #434455;
+  --adress-list-mail: #434455;
 }
 
 body {
@@ -49,6 +51,10 @@ li {
   font-style: normal;
 }
 
+.address {
+  font-style: normal;
+}
+
 .adress-list-mail {
   font-size: 16px;
   line-height: 1.5;
@@ -67,6 +73,14 @@ li {
 }
 
 .menu-link:focus {
+  color: #404bbf;
+}
+
+.adress-list-mail:hover {
+  color: #404bbf;
+}
+
+.adress-list-mail:focus {
   color: #404bbf;
 }
 
