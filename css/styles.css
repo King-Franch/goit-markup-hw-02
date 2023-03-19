@@ -1,5 +1,5 @@
 :root {
-  --list-studio: #2e2f42;
+  --list: #2e2f42;
   --menu-link: #2e2f42;
   --list: #434455;
   --adress-list-mail: #434455;
@@ -49,7 +49,7 @@ li {
   color: #404bbf;
 }
 
-.list-studio {
+.list {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
