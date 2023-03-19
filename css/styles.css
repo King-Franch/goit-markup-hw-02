@@ -1,4 +1,6 @@
 :root {
+  --list-studio: #2e2f42;
+  --menu-link: #434455;
 }
 
 body {
@@ -43,7 +45,7 @@ li {
   list-style: none;
 }
 
-.adress {
+.contacts {
   font-style: normal;
 }
 
@@ -58,6 +60,14 @@ li {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.menu-link:hover {
+  color: #404bbf;
+}
+
+.menu-link:focus {
+  color: #404bbf;
 }
 
 /* HERO IMAGE (SECTION 1 */
@@ -159,6 +169,7 @@ button:focus {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 
 /* FOOTER */
