@@ -65,6 +65,8 @@ li {
   color: #ffffff;
 }
 
+/* BUTTON */
+
 .hero-button {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
@@ -78,6 +80,27 @@ li {
   width: 169px;
   border-radius: 4px;
   font-size: 16px;
+}
+
+.filter-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  columns: #4d5ae5;
+  background-color: #f4f4fd;
+  cursor: pointer;
+}
+
+button:hover > .filter-button {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+button:focus > .filter-button {
+  color: #ffffff;
+  background-color: #404bbf;
 }
 
 button:hover {
@@ -144,3 +167,5 @@ button:focus {
 .studio-black {
   color: #2e2f42;
 }
+
+/* PORTFOLIO */
